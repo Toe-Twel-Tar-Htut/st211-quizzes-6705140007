@@ -14,7 +14,7 @@ class TestShoppingCart:
         cart.add("Book", 20)
         assert cart.count() == 1
 
-    def test_total_sum_prices(self):
+    def test_total_sums_prices(self):
         cart = ShoppingCart()
         cart.add("Book", 20)
         cart.add("Pen", 5)        
